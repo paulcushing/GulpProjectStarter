@@ -18,10 +18,11 @@ gulp.task('styles', function() {
 // Site Scripts
 gulp.task('scripts', function() {
   return gulp.src([
-  		'src/js/jquery-3.2.1.min.js',
-  		'src/js/popper.js',
-  		'src/js/bootstrap-4.0.0.js',
-  		'src/js/custom.js'
+  		/* Add whatever scripts you want to include. They're inserted in the order listed. */
+  		//'src/js/jquery-3.2.1.min.js',
+  		//'src/js/popper.js',
+  		//'src/js/bootstrap-4.0.0.js',
+  		'src/js/custom.js'  /* Your own JS for inclusion */
   	])
 	.pipe(plugins.jshint('.jshintrc'))
 	.pipe(plugins.jshint.reporter('default'))
