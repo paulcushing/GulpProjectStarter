@@ -13,9 +13,9 @@ Review `package.json` and `gulpfile.js` to alter the project name and ensure the
 ## Use
 Run `gulp` or `gulp serve` to watch for changes and run browsersync to automatically update browser when changes are made. 
 
-To only update the individual file types, use:
-`gulp styles`
-`gulp scripts`
-`gulp images`
+To only update the individual file types, use:<br/>
+`gulp styles`<br/>
+`gulp scripts`<br/>
+`gulp images`<br/>
 
 
